@@ -3,8 +3,8 @@
 ### Swap DEX Dapp のサンプルです。
 
 - 技術スタック
-    - Solidity
-    - Truffle Suite
+    - Solidity （^0.8.4）
+    - Truffle Suite （5.4.2）
     - Ganache
     - Web3.js
     - jQuery
