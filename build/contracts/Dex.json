@@ -91,7 +91,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -114,7 +115,8 @@
       "name": "buyToken",
       "outputs": [],
       "stateMutability": "payable",
-      "type": "function"
+      "type": "function",
+      "payable": true
     },
     {
       "inputs": [
@@ -12945,9 +12947,17 @@
     "name": "solc",
     "version": "0.8.4+commit.c7e474f2.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xf0A6886F586596F6Fd0626BDBF1b8cE7F294F12B",
+      "transactionHash": "0xa42340494e84ba37d91a2917452f205b935e3cd70ebe77440e664cb1f1f8c21e"
+    }
+  },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2022-03-26T05:32:42.373Z",
+  "updatedAt": "2022-03-26T06:17:59.782Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
