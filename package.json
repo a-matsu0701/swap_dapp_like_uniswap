@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/a-matsu0701/swap_dapp_like_uniswap/issues"
   },
-  "homepage": "https://github.com/a-matsu0701/swap_dapp_like_uniswap#readme"
+  "homepage": "https://github.com/a-matsu0701/swap_dapp_like_uniswap#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "chai-bn": "^0.3.1",
+    "truffle-assertions": "^0.9.2"
+  }
 }
